@@ -6,23 +6,23 @@ export const config = {
   // 公众号APP_ID 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_ID: "",
+  // APP_ID: "wxba2a409568a3f2ad",
 
   // 公众号APP_SECRET 
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  // APP_SECRET: "",
+  // APP_SECRET: "2a66d45c06c54a02b4ce296cd6c7ae3a",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
    * [
    *  {
    *    // 想要发送的人的名字
-   *    name: "老婆0",
+   *    name: "陈玙瑶宝宝",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "osMHp6W7m-vNrhsfHAWRb86u11rs",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "sA4Rb6LU9YufT5Bmx6M0NZbjnl301gmjGl822V0r_8Q",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -31,24 +31,24 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "欧阳憨憨",
+      name: "陈玙瑶宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o0plv51RxAk1h4W0q8Ww4PuvtWaw",
+      id: "osMHp6W7m-vNrhsfHAWRb86u11rs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "kU3PiJQxRjY9l6uKOqFxdWQkFViUwdu-NfrPFZynJKE",
+      useTemplateId: "sA4Rb6LU9YufT5Bmx6M0NZbjnl301gmjGl822V0r_8Q",
       // 所在省份
-      province: "广东",
+      province: "贵州",
       // 所在城市
-      city: "广州",
+      city: "遵义",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "本机", 
-      id: "o0plv54YCWE5xO6zWUwkqE2wCE2c",
-      useTemplateId: "kU3PiJQxRjY9l6uKOqFxdWQkFViUwdu-NfrPFZynJKE",
-      province: "广东",
-      city: "珠海",
+      name: "陈玙瑶宝宝", 
+      id: "osMHp6W7m-vNrhsfHAWRb86u11rs",
+      useTemplateId: "kU3PiJQxRjY9l6uK",
+      province: "贵州",
+      city: "遵义",
       openUrl: "https://baidu.com"
     }, 
     /*
@@ -82,9 +82,9 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "小狗🐶",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o0plv54YCWE5xO6zWUwkqE2wCE2c",
+      id: "osMHp6TxufSKbQ-mDaec96a4Y1Ao",
     }, 
   ],
     
@@ -95,9 +95,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "贵州",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "广州",
+  CITY: "遵义",
 
   /** 重要节日相关 */
 
@@ -108,8 +108,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
    FESTIVALS: [
-    {"type": "生日", "name": "欧阳", "year": "2000", "date": "01-13"},
-    {"type": "节日", "name": "元旦纪念日", "year": "2021", "date": "01-01"},
+    {"type": "生日", "name": "美丽可爱亲亲老婆", "year": "2007", "date": "05-29"},
+    {"type": "节日", "name": "我们第一天！", "year": "2022", "date": "04-04"},
     //{"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
     //{"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
@@ -129,14 +129,10 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2021-01-01"},
-    // 结婚纪念日
-    //{"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    //{"keyword": "ex_day", date: "2022-08-31"},
+    {"keyword": "love_day", date: "2022-04-04"}
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
+    // {"keyword": "birthday_day", date:"2007-05-29"},
   ],
 
   /** 插槽 */
@@ -147,13 +143,13 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "Evang@celeste-每日拍猪"},
+    {"keyword": "encourage_oneself", contents: "Evang@celeste-每日拍憨包"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "人生初见 春和景明",
+      "憨包老婆亲亲",
+      "好爱好爱你",
+      "老婆记得开心哦",
     ]},
   ],
 
